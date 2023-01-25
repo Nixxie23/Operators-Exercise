@@ -12,12 +12,21 @@
             int b = 4;
             int quotient = a / b;
             int remainder = a % b;
-            if (a == 17 && b == 4);
+
             int addition = a + b;
             int subtraction = a - b;
             int multiplication = a * b;
             int modulus = a % b;
-            { Console.WriteLine($"{a}/{b} is {quotient} with a remainder of {remainder}"); }
+            if (a == 17 && b == 4)
+            {
+                Console.WriteLine($"{a}/{b} is {quotient} with a remainder of {remainder}");
+            }
+            else
+            {
+                Console.WriteLine("You have the wrong integers inserted into your equation.");
+
+            }
+
 
             //EXERCISE TWO
             Console.WriteLine("What is the radius of your circle?");
